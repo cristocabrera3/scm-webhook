@@ -53,18 +53,5 @@ pipeline {
                 bat '"C:\\Program Files\\Git\\bin\\bash.exe" -c "rm python.zip"'
             }
         }
-        // stage('Test1') {
-        //     steps {
-        //         script {
-        //             def validateTemplate = sh(script: '"C:\\Program Files\\Amazon\\AWSCLIV2\\aws" cloudformation validate-template --template-body file://template.yaml --region %AWS_REGION%', returnStatus: true)
-
-        //             if (validateTemplate == 0) {
-        //                 echo "CloudFormation template is valid"
-        //             } else {
-        //                 error "CloudFormation template is invalid"
-        //             }
-        //         }
-        //     }
-        // }
     }
 }
