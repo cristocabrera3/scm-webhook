@@ -7,7 +7,7 @@ pipeline {
         STACK_NAME = 'my-stack'
         BUCKET_NAME = 'myuniquebucket16032026'
     }
-
+//
     stages {
         stage('Checkout') {
             steps {
