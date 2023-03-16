@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         AWS_REGION = 'us-east-1'
-        GITHUB_REPO_URL = 'https://github.com/cristocabrera3/jenkins-lambda.git'
+        GITHUB_REPO_URL = 'https://github.com/cristocabrera3/scm-webhook.git'
         STACK_NAME = 'my-stack'
         BUCKET_NAME = 'myuniquebucket16032026'
     }
